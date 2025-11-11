@@ -1,0 +1,57 @@
+📘 TIME COMPLEXITY
+
+Time Complexity measures how the running time of an algorithm increases as the input size (n) grows.
+It shows how efficiently your algorithm performs when input gets larger.
+
+🔹 Why It Matters
+• Helps compare algorithm efficiency
+• Predicts how your program will scale for big inputs
+• A lower time complexity → means a faster and more optimized program
+
+🔹 Types of Time Complexity
+
+🟩 O(1) – Constant Time
+Takes same time regardless of input size.
+Example:
+
+x = arr[0]   # O(1)
+
+
+✅ Accessing an element from an array.
+
+🟦 O(n) – Linear Time
+Time grows linearly with input size.
+Example:
+
+i = 5
+while i < n:
+    print("All India Coders")
+    i += 1
+
+
+→ Runs (n − 5) times
+→ T(n) = 3n − 14 → O(n)
+
+🔹 Representation Symbols
+
+O → Big O → Worst Case
+Ω → Omega → Best Case
+Θ → Theta → Average Case
+
+🧠 Note:
+Average time ≠ (Best + Worst) / 2
+It depends on the probability of input distribution.
+
+🔹 Real-World Analogy
+O(1) → Opening a message instantly 📩
+O(n) → Scrolling through n messages one by one 📜
+
+🔹 Key Takeaways
+✅ Time complexity shows how performance scales, not exact runtime.
+✅ Big O focuses on growth rate, not seconds.
+✅ Lower complexity → faster scaling.
+✅ Predict efficiency before executing code.
+✅ Always aim for O(1) or O(log n) when possible.
+
+✨ In short:
+Time complexity helps you write smarter, faster, and scalable code — not just working code! 🚀
