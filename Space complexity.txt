@@ -1,0 +1,51 @@
+📘 SPACE COMPLEXITY
+
+🔹 Definition
+
+Space Complexity measures the extra (auxiliary) memory an algorithm uses apart from the input data.
+It includes all temporary storage, variables, function calls, and recursion stack used while running the code.
+
+🔹 Why It Matters
+
+Efficient code isn’t just fast, it’s also memory-friendly.
+If an algorithm consumes too much memory, it may slow down or crash on large inputs — even if its time complexity is good.
+
+🔹 Representations
+
+🟩 O(1) → Constant Space
+Uses a fixed amount of memory, no matter how large the input is.
+
+🟦 O(n) → Linear Space
+Memory usage grows linearly with the size of input.
+
+🟥 O(n²) → Quadratic Space
+Memory usage grows rapidly when data is stored in nested structures (like 2D arrays or matrix copies).
+
+🔹 Example
+arr = [1, 2, 3, 4, 5]
+
+for i in arr:
+    print(i)       # O(1) → No extra data stored
+
+new_arr = arr.copy()  # O(n) → Copying requires extra space equal to input
+
+🔹 Auxiliary Space Includes
+
+Temporary variables
+
+Function call memory
+
+Recursion stack
+
+Extra data structures (arrays, lists, hash maps, etc.)
+
+🔹 Real-World Analogy
+Complexity	Example
+O(1)	One notebook for all subjects 📘
+O(n)	One notebook per subject 📚
+O(n²)	Notes inside each notebook 😅
+🔹 Key Takeaways
+
+✅ Space complexity = Extra memory required by the algorithm
+✅ Less space → better efficiency and scalability
+✅ Write code that’s both fast and memory-light 💾
